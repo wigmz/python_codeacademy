@@ -2,8 +2,8 @@
 
 import random
 
-name = "Wig" 
-question = "Is it going to rain tomorrow?"
+name = " " 
+question = " "
 answer = ""
 
 random_number = random.randint(1, 9)
@@ -30,5 +30,15 @@ elif random_number == 9:
 else:
   answer = "Error"
 print(name + " " + "asks:" + " " + question)
+
+if name == " ":
+  print(question)
+else:
+  print (name + " " + "asks:" + " " + question)
+
+if question == " ":
+  print("What the fuck is your question?")
+else:
+  print(name + " " + "asks:" + " " + question)
 
 print("Magic 8-Ball's answer:" + " " + answer)

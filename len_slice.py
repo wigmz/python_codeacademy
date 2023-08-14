@@ -1,4 +1,4 @@
-# code 26-28 needs to be work on
+# code 28-30 got solve using a tuple
 
 # Your code below:
 toppings = ["pepperoni", "pineapple", "cheese", "sausage", "olives","anchovies", "mushrooms"]
@@ -25,9 +25,9 @@ priciest_pizza = pizzas_and_prices[6]
 pizzas_and_prices.pop()
 print(pizzas_and_prices)
 
-# need to see solution for this 
-# pizzas_and_prices.insert(3(3,"peppers"))
-# print(pizzas_and_prices)
+new_item = (2.5, 'peppers')
+pizzas_and_prices.insert(4, new_item)
+print(pizzas_and_prices)
 
 three_cheapest = pizzas_and_prices[:3]
 print(three_cheapest)

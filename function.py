@@ -42,4 +42,9 @@ generate_trip_instructions('Central Park')
 generate_trip_instructions('Grand Central Station')
 
 # Multiple Parameters
+# We can write a function that takes in more than one parameter by using commas:
+
+def my_function(parameter1, parameter2, parameter3):
+  # Some code
+
 

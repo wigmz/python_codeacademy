@@ -90,3 +90,16 @@ length_of_destination = len(destination_name)
 
 # Built-in function: print()
 print(length_of_destination)
+
+# Variable Access
+# As we expand our programs with more functions, we might start to ponder, where exactly do we have access to our variables? To examine this, let’s revisit a modified version of the first function we built out together:
+
+def trip_welcome(destination):
+  print(" Looks like you're going to the " + destination + " today. ")
+
+# What if we wanted to access the variable destination outside of the function? Could we use it? Take a second to think about what the following program will output, then check the result below!
+
+def trip_welcome(destination):
+  print(" Looks like you're going to the " + destination + " today. ")
+
+print(destination)

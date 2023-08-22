@@ -77,3 +77,16 @@ calculate_taxi_price(10, 0.5)
 
 # Overwriting the default value of 10 with 20
 calculate_taxi_price(10, 0.5, 20)
+
+# Built-in Functions vs User Defined Functions
+# There are two distinct categories for functions in the world of Python. What we have been writing so far in our exercises are called User Defined Functions - functions that are written by users (like us!).
+
+# There is another category called Built-in functions - functions that come built into Python for us to use. Remember when we were using print or str? Both of these functions are built into the language for us, which means we have been using built-in functions all along!
+
+destination_name = "Venkatanarasimharajuvaripeta"
+
+# Built-in function: len()
+length_of_destination = len(destination_name)
+
+# Built-in function: print()
+print(length_of_destination)

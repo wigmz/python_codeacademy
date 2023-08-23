@@ -103,3 +103,23 @@ def trip_welcome(destination):
   print(" Looks like you're going to the " + destination + " today. ")
 
 print(destination)
+
+# Returns
+# At this point, our functions have been using print() to help us visualize the output in our interpreter. Functions can also return a value to the program so that this value can be modified or used later. We use the Python keyword return to do this.
+
+# Here’s an example of a program that will return a converted currency for a given location a user may want to visit in our trip planner application.
+
+def calculate_exchange_usd(us_dollars, exchange_rate):
+  return us_dollars * exchange_rate
+
+new_zealand_exchange = calculate_exchange_usd(100, 1.4)
+
+print("100 dollars in US currency would give you " + str(new_zealand_exchange) + " New Zealand dollars")
+
+# This would output:
+
+100 dollars in US currency would give you 140 New Zealand dollars
+
+# Saving our values returned from a function like we did with new_zealand_exchange allows us to reuse the value (in the form of a variable) throughout the rest of the program.
+
+# When there is a result from a function that is stored in a variable, it is called a returned function value.
